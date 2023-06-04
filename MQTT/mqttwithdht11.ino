@@ -16,13 +16,14 @@
 #include <DHT.h>
 #include <DHT_U.h>
 
-#define WIFI_SSID "Neng WiFi"
-#define WIFI_PASSWORD "05Aug-1977"
+#define WIFI_SSID "Tes"
+#define WIFI_PASSWORD "qwerty123"
 #define DHTPIN D5
 // Raspberry Pi Mosquitto MQTT Broker
-#define MQTT_HOST IPAddress(192, 168, 18, 19)
+// 192.168.43.144
+#define MQTT_HOST IPAddress(192, 168, 43, 144)
 // For a cloud MQTT broker, type the domain name
-//#define MQTT_HOST "example.com"
+//#define MQTT_HOST "test.mosquitto.org"
 #define MQTT_PORT 1883
 
 #define TOPIC_TEMP "/nodemcu/data/temperature"
